@@ -23,7 +23,7 @@ This project aims to design and build a fully functional, 3D-printed RC plane. I
 ## Setup Instructions
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/3D-Printed-RC-Plane.git
+    git clone https://github.com/anwaralshamkhany/RC-Plane.git
     ```
 2. Open the `SolidWorks` folder to view CAD models.
 3. Navigate to the `Code/Arduino` folder for flight control code.
