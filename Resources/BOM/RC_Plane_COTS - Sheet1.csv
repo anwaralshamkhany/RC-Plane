@@ -1,0 +1,11 @@
+Component Name,Brief Purpose,Price (CAD),Weight (g),Dimensions (mm),Ships to Canada,Quantity,Link to Purchase,Notes
+Emax GT2215/09,Provides thrust for flight,$25,60,27x36,Yes,1,Link,
+Hobbywing Skywalker 20A ESC,Controls motor speed,$20,24,60x25x10,Yes,1,Link,
+Turnigy 2200mAh 3S 25C LiPo Pack,Powers motor and electronics,$30,185,135x42x27,Yes,1,Link,
+FlySky FS-iA6B Receiver,Receives signals from transmitter,$15,14,30x17x8,Yes,1,Link,
+TowerPro SG90 Micro Servos (x4),Controls control surfaces,$20,36,23x12x29,Yes,4,Link,Weight per servo is 9g
+APC 10x4.7 Slow Flyer Propeller,Converts motor power to thrust,$5,15,10 inch diameter,Yes,1,Link,
+Ardupilot APM 2.8 Flight Controller,Stabilizes flight,$50,32,70x45x15,Yes,1,Link,
+RunCam Micro Swift 3,Provides first-person view,$40,5.6,19x19x25,Yes,1,Link,
+Eachine TX526 5.8G 600mW VTX,Transmits FPV video,$25,9,34x22x8,Yes,1,Link,
+FrSky FLVSS LiPo Voltage Sensor,Provides real-time data,$15,3.6,35x15x5,Yes,1,Link,
