@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/24/24||00:01:34" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="B2-Spirit-Complete" uid="B2-Spirit-Complete" version="425">
+<AssemblyFile name="B2-Spirit-Complete.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-1" uid="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-1" entityUid="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -1.5265566588595902e-16 -1.0000000000000002 0 1.0000000000000002 -1.5265566588595902e-16</Rotation>
+<Translation>-0.28230482398236234 0.068442765686413123 0.86331864321142504</Translation>
+</Transform>
+<Instance name="Propeller_holder.step-1" uid="Propeller_holder.step-1" grounded="true" entityUid="Propeller_holder.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor.step-1" uid="Motor.step-1" grounded="true" entityUid="Motor.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Propeller_adapter.step-1" uid="Propeller_adapter.step-1" grounded="true" entityUid="Propeller_adapter.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="EDF_funnel.step-1" uid="EDF_funnel.step-1" grounded="true" entityUid="EDF_funnel.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Propeller.step-1" uid="Propeller.step-1" grounded="true" entityUid="Propeller.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Washer.step-1" uid="Washer.step-1" grounded="true" entityUid="Washer.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Spinner.step-1" uid="Spinner.step-1" grounded="true" entityUid="Spinner.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut.step-1" uid="Nut.step-1" grounded="true" entityUid="Nut.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="esc 80A-1" uid="esc 80A-1" entityUid="esc 80A*:*Varsayilan">
+<Transform>
+<Rotation>0 -0.99999999999999989 6.8816480292000206e-15 6.807054919732991e-15 6.8816480292000206e-15 1 -1 0 6.8174632605888519e-15</Rotation>
+<Translation>-0.191451509001242 0.068012997549195972 0.86595717959876417</Translation>
+</Transform>
+</Instance>
+<Instance name="APM 2.5 Side Entry Case.step-1" uid="APM 2.5 Side Entry Case.step-1" entityUid="APM 2.5 Side Entry Case.step*:*Default">
+<Transform>
+<Rotation>0.0087265354983838729 0 -0.9999619230641712 -1.5716594692349819e-15 1 0 0.9999619230641712 1.5715996252582279e-15 0.0087265354983838729</Rotation>
+<Translation>-0.18612500399446111 0.08076299754920048 0.9142919436384811</Translation>
+</Transform>
+</Instance>
+<Instance name="Turnigy_2200mAh_3S_20C_Lipo_Pack-2" uid="Turnigy_2200mAh_3S_20C_Lipo_Pack-2" entityUid="Turnigy_2200mAh_3S_20C_Lipo_Pack*:*Valor predeterminado">
+<Transform>
+<Rotation>0 -0.99999999999999989 -3.9048625444237928e-15 4.0245584642662097e-16 -3.9048625444237928e-15 0.99999999999999989 -1 0 4.0245584642662063e-16</Rotation>
+<Translation>-0.16249259745479791 0.049512997549199564 0.96100879754417368</Translation>
+</Transform>
+</Instance>
+<Instance name="Fuselage_01-2" uid="Fuselage_01-2" grounded="true" entityUid="Fuselage_01*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.95212889610581053 -0.15046827218286418 0.60465136509570394</Translation>
+</Transform>
+</Instance>
+<Instance name="Turnigy_2200mAh_3S_20C_Lipo_Pack-1" uid="Turnigy_2200mAh_3S_20C_Lipo_Pack-1" entityUid="Turnigy_2200mAh_3S_20C_Lipo_Pack*:*Valor predeterminado">
+<Transform>
+<Rotation>0 -0.99999999999999989 -3.9048625444237928e-15 4.0245584642662097e-16 -3.9048625444237928e-15 0.99999999999999989 -1 0 4.0245584642662063e-16</Rotation>
+<Translation>-0.16249259745479794 0.047512997549199625 0.75859456484497267</Translation>
+</Transform>
+</Instance>
+<Instance name="Flysky FS-iA6 Receiver.stp-1" uid="Flysky FS-iA6 Receiver.stp-1" entityUid="Flysky FS-iA6 Receiver.stp" rigid="true">
+<Transform>
+<Rotation>-1.0000000000000002 0 -1.3551659794330817e-14 0 1 0 1.3551659794330817e-14 0 -1.0000000000000002</Rotation>
+<Translation>-0.16533798556962329 0.089797189816346462 0.87983940265638061</Translation>
+</Transform>
+<Instance name="3x7 Header.stp-1" uid="3x7 Header.stp-1" grounded="true" entityUid="3x7 Header.stp*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.012032086806378989 -0.0080841922671460037 0.0058000000000000274</Translation>
+</Transform>
+</Instance>
+<Instance name="Flysky FS-iA6 Receiver_1.stp-1" uid="Flysky FS-iA6 Receiver_1.stp-1" grounded="true" entityUid="Flysky FS-iA6 Receiver_1.stp*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0050615695789749671 -0.0090341922671459962 0.035040709926660085</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-2" uid="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-2" entityUid="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -3.2075037070811163e-15 -1.0000000000000002 0 1.0000000000000002 -3.2075037070811163e-15</Rotation>
+<Translation>-0.040561258314771351 0.068442765686410487 0.86331864321142526</Translation>
+</Transform>
+<Instance name="Propeller_holder.step-1" uid="Propeller_holder.step-1" grounded="true" entityUid="Propeller_holder.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor.step-1" uid="Motor.step-1" grounded="true" entityUid="Motor.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Propeller_adapter.step-1" uid="Propeller_adapter.step-1" grounded="true" entityUid="Propeller_adapter.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="EDF_funnel.step-1" uid="EDF_funnel.step-1" grounded="true" entityUid="EDF_funnel.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Propeller.step-1" uid="Propeller.step-1" grounded="true" entityUid="Propeller.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Washer.step-1" uid="Washer.step-1" grounded="true" entityUid="Washer.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Spinner.step-1" uid="Spinner.step-1" grounded="true" entityUid="Spinner.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut.step-1" uid="Nut.step-1" grounded="true" entityUid="Nut.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="esc 80A-2" uid="esc 80A-2" entityUid="esc 80A*:*Varsayilan">
+<Transform>
+<Rotation>0 1 -4.6644979545540599e-14 6.8799133057240169e-15 -4.6644979545540599e-14 -1 -1 0 -6.8799133057240169e-15</Rotation>
+<Translation>-0.13445150900123934 0.068012997549200663 0.86595717959876417</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0.82886183123305091 0.19998126973206465 0.41807268468830761</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Turnigy_2200mAh_3S_20C_Lipo_Pack-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Turnigy_2200mAh_3S_20C_Lipo_Pack-1</Uid>
+</InstancePath>
+<Position>-0.05149999999999999 0.017000000000000015 0.024</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Turnigy_2200mAh_3S_20C_Lipo_Pack-2</Uid>
+</InstancePath>
+<Position>-0.051500000000000101 0.017000000000000015 0.023999999999999994</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-1</Uid>
+<Uid>Motor.step-1</Uid>
+</InstancePath>
+<Position>0 -0.032399999999999984 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-2</Uid>
+<Uid>Motor.step-1</Uid>
+</InstancePath>
+<Position>0 -0.032399999999999984 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-1</Uid>
+<Uid>EDF_funnel.step-1</Uid>
+</InstancePath>
+<Position>0.046499999999999986 0.010000000000000009 -0.0016250000000000153</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-2</Uid>
+<Uid>EDF_funnel.step-1</Uid>
+</InstancePath>
+<Position>-0.035650351904537303 0.010000000000000009 -0.0016250000000000014</Position>
+<Axis>1.2246467991473498e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0 0.23123126973206465 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>APM 2.5 Side Entry Case.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0 0.20198126973206465 0.016000000000000014</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>esc 80A-2</Uid>
+</InstancePath>
+<Position>-0.033000000000000029 0.0059999999999999776 0.016499999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0 0.20198126973206465 0.016000000000000014</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>esc 80A-1</Uid>
+</InstancePath>
+<Position>-0.033000000000000029 0.0060000000000000053 -0.016499999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>esc 80A-1</Uid>
+</InstancePath>
+<Position>0.033000000000000029 0.0060000000000000053 0.016500000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>esc 80A-2</Uid>
+</InstancePath>
+<Position>0.033000000000000029 0.0059999999999999776 0.016499999999999994</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0 0.19798126973206465 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Turnigy_2200mAh_3S_20C_Lipo_Pack-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0 0.23123126973206465 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Flysky FS-iA6 Receiver.stp-1</Uid>
+<Uid>Flysky FS-iA6 Receiver_1.stp-1</Uid>
+</InstancePath>
+<Position>-0.0066794827725963901 0 -0.036740709926660564</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0.81167738710456805 0.22823126973206465 0.26243864124395755</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>esc 80A-2</Uid>
+</InstancePath>
+<Position>0 -0.0060000000000000053 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0.76667738710456812 0.22823126973206465 0.29243864124395746</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>esc 80A-1</Uid>
+</InstancePath>
+<Position>0 -0.0060000000000000053 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Fuselage_01-2</Uid>
+</InstancePath>
+<Position>0.71632407212344817 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>QX-Motor 70mm 12 Blades EDF 2827 KV2600.step-1</Uid>
+<Uid>EDF_funnel.step-1</Uid>
+</InstancePath>
+<Position>0.046499999999999986 0.010000000000000009 0.0016249999999999876</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step" uid="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="QX-Motor 70mm 12 Blades EDF 2827 KV2600.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Flysky FS-iA6 Receiver.stp" uid="Flysky FS-iA6 Receiver.stp" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Flysky FS-iA6 Receiver.stp.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="3x7 Header.stp" uid="3x7 Header.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="3x7 Header.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00037909285295376516</Mass>
+<CenterOfMass>-0.0076199999999999896 0.0051570822680467709 -0.0025399999999999997</CenterOfMass>
+<Inertia>3.3815792885653865e-09 1.1734960498591283e-08 1.1547586437005601e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="3x7 Header.stp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="APM 2.5 Side Entry Case.step" uid="APM 2.5 Side Entry Case.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="APM 2.5 Side Entry Case.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.039162721984792231</Mass>
+<CenterOfMass>0.042738768991506922 0.0060153931110591427 -0.022640885906163057</CenterOfMass>
+<Inertia>6.3702738114121787e-06 2.686346091411352e-05 2.1685947672967701e-05 1.7185479664867297e-07 7.6666015989585731e-07 -1.3327884574759928e-07</Inertia>
+</MassProperties>
+<GeometryFile name="APM 2.5 Side Entry Case.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EDF_funnel.step" uid="EDF_funnel.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EDF_funnel.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.026323757974918816</Mass>
+<CenterOfMass>1.798148937545693e-07 0.027256684645984922 -4.4219475306709299e-05</CenterOfMass>
+<Inertia>2.1547494751704288e-05 3.0554882207172961e-05 2.3771165699987832e-05 -6.4867481856468344e-09 -8.6260209113903642e-11 8.5080752588123037e-11</Inertia>
+</MassProperties>
+<GeometryFile name="EDF_funnel.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.26666666666666666" g="0.26666666666666666" b="0.26666666666666666" a="1"/>
+<Diffuse r="0.26666666666666666" g="0.26666666666666666" b="0.26666666666666666" a="1"/>
+<Specular r="0.13333333333333333" g="0.13333333333333333" b="0.13333333333333333" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Flysky FS-iA6 Receiver_1.stp" uid="Flysky FS-iA6 Receiver_1.stp*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Flysky FS-iA6 Receiver_1.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.006173793362938565</Mass>
+<CenterOfMass>-0.0098533167191051131 0.0041231568430761161 -0.036742236504795966</CenterOfMass>
+<Inertia>2.9095872334495351e-07 8.8459186513417065e-07 6.6701795025348808e-07 -6.3443537787649306e-12 1.8249983541498346e-10 1.4230795569393549e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Flysky FS-iA6 Receiver_1.stp_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Fuselage_01" uid="Fuselage_01*:*Default" version="10476">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Fuselage_01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.6576648903891877</Mass>
+<CenterOfMass>0.78622565249494514 0.21183065208054094 0.210801720237944</CenterOfMass>
+<Inertia>0.046905207647880018 0.32494798899164579 0.28047507154869855 -5.156002743846765e-05 0.00049745495438700696 -1.3091790019016027e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Fuselage_01_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor.step" uid="Motor.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0074630221979177427</Mass>
+<CenterOfMass>7.674935280728156e-10 0.0017289782461223781 5.4157470959634413e-09</CenterOfMass>
+<Inertia>2.4039804415576885e-06 1.0776617045743826e-06 2.4042842463910495e-06 7.9888743351598109e-13 2.6870203255977589e-13 4.7396809181847608e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Motor.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nut.step" uid="Nut.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nut.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00032276927528870349</Mass>
+<CenterOfMass>0 0.056984999999999994 0</CenterOfMass>
+<Inertia>5.1711058904467251e-09 9.2382924440147902e-09 5.1711058904467251e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Nut.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Propeller.step" uid="Propeller.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Propeller.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0064194464511986484</Mass>
+<CenterOfMass>7.7720684034730853e-12 0.045631315707982074 -6.0532428179320119e-11</CenterOfMass>
+<Inertia>1.0415711780246499e-06 1.8825156305047613e-06 1.0415711829593944e-06 1.5611410137281978e-15 -6.3763862763045126e-16 0</Inertia>
+</MassProperties>
+<GeometryFile name="Propeller.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.049019607843137254" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Propeller_adapter.step" uid="Propeller_adapter.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Propeller_adapter.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001744656099243872</Mass>
+<CenterOfMass>0 0.043491556604053627 0</CenterOfMass>
+<Inertia>2.0437889614521472e-07 1.7942977552681007e-08 2.0437889614525387e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Propeller_adapter.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Propeller_holder.step" uid="Propeller_holder.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Propeller_holder.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010175165917249919</Mass>
+<CenterOfMass>0 0.033438064604427588 0</CenterOfMass>
+<Inertia>2.7311942465863656e-08 4.5585722664049551e-08 2.7311942465863639e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Propeller_holder.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Spinner.step" uid="Spinner.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Spinner.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014871047858080236</Mass>
+<CenterOfMass>0 0.060661578940370629 0</CenterOfMass>
+<Inertia>1.4413146833588606e-07 1.9037635657388481e-07 1.4413146833588585e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Spinner.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.98431372549019602" g="0.98039215686274506" b="0.96078431372549022" a="1"/>
+<Diffuse r="0.98431372549019602" g="0.98039215686274506" b="0.96078431372549022" a="1"/>
+<Specular r="0.49215686274509801" g="0.49019607843137253" b="0.48039215686274511" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Turnigy_2200mAh_3S_20C_Lipo_Pack" uid="Turnigy_2200mAh_3S_20C_Lipo_Pack*:*Valor predeterminado" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Turnigy_2200mAh_3S_20C_Lipo_Pack.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.083149184956413352</Mass>
+<CenterOfMass>0 0 0.012</CenterOfMass>
+<Inertia>1.1914123413561166e-05 7.652782883154499e-05 8.0515781706079381e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Turnigy_2200mAh_3S_20C_Lipo_Pack_Valor predeterminado_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Washer.step" uid="Washer.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Washer.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00012643928682994649</Mass>
+<CenterOfMass>0 0.053659999999999999 0</CenterOfMass>
+<Inertia>1.7231701815216801e-09 3.3516289079219414e-09 1.7231701815216797e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Washer.step_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="esc 80A" uid="esc 80A*:*Varsayilan" version="927">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="esc 80A.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.079132010759028981</Mass>
+<CenterOfMass>-0.0053531460632810961 -0.00012429799664922283 1.1092770049121951e-05</CenterOfMass>
+<Inertia>7.6750629741390923e-06 4.5684546160284199e-05 3.9718580810752081e-05 2.9618641063668559e-09 3.0702107228393901e-08 -7.5190001174212658e-08</Inertia>
+</MassProperties>
+<GeometryFile name="esc 80A_Varsayilan_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.075294117647058817" g="0.075294117647058817" b="0.075294117647058817" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
